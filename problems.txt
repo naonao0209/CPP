@@ -1,0 +1,16 @@
+Abstract base class Engine contains engine type, cylinder and horsepower as integer data members 
+Virtual functions showEngineType() and showCylinders() and showHP()   
+Concrete class Car inherited from Engine that has make, model and year 
+Concrete class Bike inherited from Engine that has make, and engine volume 
+Concrete class Plane inherited from Engine that has numberOfEngines and liftload 
+Class Plane must have an operator =, ==, !=, and + implemented in it.
+ Functionality of =, ==, and != is obvious, the functionality of + operator should be generating a plane 
+with the addition of the liftloads of the two added planes. 
+ 
+1. Create a C ++ hierarchy of classes considering all items as well as the followings: (80 marks) 
+ 
+Main program is required to demonstrate the functionality of your classes
+Virtual functions should be overloaded in all concrete classes to show
+ showEngineType, showHP()  and showCylinders()
+Exception handling should be implemented in driver program for constructing objects 
+to catch negative number of cylinders, negative horse power.(20 Marks)
